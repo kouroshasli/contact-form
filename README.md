@@ -39,6 +39,7 @@ To run this project, you need:
    ```bash
    git clone https://github.com/kouroshasli/contact-form.git
 
- ```bash
+ 
+ bash
    cd contact-form
 
