@@ -12,4 +12,4 @@ A modern and user-friendly Contact Us form designed to enhance user interaction 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/kouroshasli/contact-form.git
