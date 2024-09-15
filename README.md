@@ -38,3 +38,7 @@ To run this project, you need:
 
    ```bash
    git clone https://github.com/kouroshasli/contact-form.git
+   cd contact-form
+   start index.html
+
+
