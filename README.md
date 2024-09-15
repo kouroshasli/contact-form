@@ -44,7 +44,3 @@ To run this project, you need:
    ```
    ```bash
    start index.html
-
-   
-
-
