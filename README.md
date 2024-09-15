@@ -1,15 +1,26 @@
-# Contact Us Form
+# Contact Form Project
 
-A modern and user-friendly Contact Us form designed to enhance user interaction and streamline communication. This form features a dynamic country search functionality, ensuring that users can easily select their country code. With an integrated simple CAPTCHA to prevent spam, this form is both user-friendly and secure. Perfect for any website or application needing a reliable contact form solution.
+This is a simple contact form project built with HTML, CSS, and JavaScript. It includes a contact form with a country code selector and a CAPTCHA feature.
 
-## Features
+## Prerequisites
 
-- **Dynamic Country Search**: Easily search and select your country code.
-- **Simple CAPTCHA**: Protects against spam with a basic CAPTCHA.
-- **Responsive Design**: Works well on both desktop and mobile devices.
+- [Git](https://git-scm.com/) - Version control system
+- A web browser (e.g., Chrome, Firefox, Edge)
 
-## Installation
+## Installation and Setup
 
-1. **Clone the repository**:
+### For Windows
+
+1. **Install Git**
+
+   If Git is not already installed on your system, follow these steps to install it:
+
+   - Download the Git installer from the [official Git website](https://git-scm.com/downloads).
+   - Run the installer and follow the installation wizard. Make sure to select the option to add Git to your PATH.
+
+2. **Clone the Repository**
+
+   Open Command Prompt (CMD) and run the following command to clone the repository:
+
    ```bash
    git clone https://github.com/kouroshasli/contact-form.git
