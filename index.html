@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="country-code">Country Code</label>
+            <div class="country-search-container">
+                <input type="text" id="country-search" placeholder="Search for a country...">
+                <select id="country-code" name="country-code" required>
+                    <option value="IR">Iran</option>
+                    <option value="US">United States</option>
+                    <option value="CA">Canada</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="DE">Germany</option>
+                    <option value="FR">France</option>
+                    <option value="IT">Italy</option>
+                    <option value="ES">Spain</option>
+                    <option value="AU">Australia</option>
+                    <option value="JP">Japan</option>
+                    <option value="CN">China</option>
+                    <option value="IN">India</option>
+                    <option value="BR">Brazil</option>
+                    <option value="RU">Russia</option>
+                    <option value="MX">Mexico</option>
+                    <option value="ZA">South Africa</option>
+                    <option value="EG">Egypt</option>
+                    <option value="SA">Saudi Arabia</option>
+                    <option value="TR">Turkey</option>
+                    <option value="KR">South Korea</option>
+                    <option value="AR">Argentina</option>
+                    <option value="NG">Nigeria</option>
+                    <option value="SE">Sweden</option>
+                    <option value="NL">Netherlands</option>
+                    <option value="CH">Switzerland</option>
+                    <option value="SG">Singapore</option>
+                </select>
+            </div>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <!-- CAPTCHA simple -->
+            <label for="captcha">CAPTCHA: <canvas id="captcha-canvas"></canvas></label>
+            <input type="text" id="captcha" name="captcha" placeholder="Enter the code from the image" required>
+            <button type="button" id="refresh-captcha">Generate New Image</button>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="response-message" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* General styling for the page */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact-container {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: 600;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form button {
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+}
+
+#captcha-canvas {
+    margin-bottom: 15px;
+}
+
+#refresh-captcha {
+    padding: 8px 12px;
+}
+
+#response-message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+/* Styling for country search */
+#country-search {
+    margin-bottom: 15px;
+}
