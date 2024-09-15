@@ -35,10 +35,10 @@ To run this project, you need:
 3. **Clone the Repository**
 
    Use the following command to clone the repository to your local machine:
-1
+
    ```bash
    git clone https://github.com/kouroshasli/contact-form.git
-2
-   ```bash
+
+ ```bash
    cd contact-form
 
